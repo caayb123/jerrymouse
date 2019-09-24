@@ -1,0 +1,15 @@
+server:
+  port: 9001
+spring:
+  application:
+    name: jerrymouse-base
+  datasource:
+   driver-class-name: com.mysql.jdbc.Driver
+   url: jdbc:mysql://192.168.126.129:3306/tensqure_base?characterEncoding=utf-8
+   username: root
+   password: cyb
+  jpa:
+    database: mysql
+    show-sql: true
+    generate-ddl: true
+
