@@ -8,17 +8,20 @@ public class Result<T> implements Serializable {
     private String message; //信息
     private T date; //数据
 
-    public Result(boolean flag, Integer code, String message, T date) {
-        this.flag = flag;
+    public Result(Integer code, String message, T date) {
         this.code = code;
         this.message = message;
         this.date = date;
     }
 
-    public Result(boolean flag, Integer code, String message) {
-        this.flag = flag;
+    public Result(Integer code, String message) {
         this.code = code;
         this.message = message;
+    }
+
+    public Result(Integer code, T date) {
+        this.code = code;
+        this.date = date;
     }
 
     public Result() {
@@ -56,4 +59,11 @@ public class Result<T> implements Serializable {
         this.date = date;
     }
 
+    public static <T> Result<T> createBySuccessMessage(String message){
+        return new Result<T>(StatusCode.OK,message);
+    }
+    public static <T> Result<T> createBySuccess(T data){return new Result<T>(StatusCode.OK,data);}
+    public static <T> Result<T> createByError(String message){
+        return new Result<T>(StatusCode.ERROR,message);
+    }
 }
