@@ -7,6 +7,7 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import java.io.Serializable;
 
 /**
 * Created by Mybatis Generator on 2019/09/24
@@ -15,7 +16,7 @@ import javax.persistence.Table;
 @Setter
 @Entity
 @Table(name = "tb_label")
-public class Label {
+public class Label implements Serializable {
     @Id
     private String id;
     @Column(name = "labelname")

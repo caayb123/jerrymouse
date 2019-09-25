@@ -36,5 +36,12 @@ public class BaseController {
         return labelService.deleteById(id);
     }
 
+    @PostMapping(value = "/search/{page}/{size}")
+    public Result findSearch(Label label,@PathVariable(value = "page") Integer page,@PathVariable(value = "size") Integer size){
+         return labelService.findSearch(label,page,size);
+    }
+
+
+
 
 }
