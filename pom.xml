@@ -10,6 +10,7 @@
     <modules>
         <module>jerrymouse_common</module>
         <module>jerrymouse_base</module>
+        <module>jerrymouse_recruit</module>
     </modules>
     <packaging>pom</packaging>
 
