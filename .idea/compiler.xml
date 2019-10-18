@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="jerrymouse_common" />
+        <module name="jerrymouse_qa" />
         <module name="jerrymouse_recruit" />
         <module name="jerrymouse_base" />
       </profile>
@@ -16,6 +17,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="jerrymouse_base" options="-parameters" />
       <module name="jerrymouse_common" options="-parameters" />
+      <module name="jerrymouse_qa" options="-parameters" />
       <module name="jerrymouse_recruit" options="-parameters" />
     </option>
   </component>

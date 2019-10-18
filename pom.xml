@@ -11,6 +11,7 @@
         <module>jerrymouse_common</module>
         <module>jerrymouse_base</module>
         <module>jerrymouse_recruit</module>
+        <module>jerrymouse_qa</module>
     </modules>
     <packaging>pom</packaging>
 
