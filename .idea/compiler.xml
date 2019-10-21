@@ -9,12 +9,14 @@
         <module name="jerrymouse_common" />
         <module name="jerrymouse_qa" />
         <module name="jerrymouse_recruit" />
+        <module name="jerrymouse_article" />
         <module name="jerrymouse_base" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="jerrymouse_article" options="-parameters" />
       <module name="jerrymouse_base" options="-parameters" />
       <module name="jerrymouse_common" options="-parameters" />
       <module name="jerrymouse_qa" options="-parameters" />
