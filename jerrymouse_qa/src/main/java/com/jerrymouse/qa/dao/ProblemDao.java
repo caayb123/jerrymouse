@@ -18,4 +18,5 @@ public interface ProblemDao extends JpaRepository<Problem,String>, JpaSpecificat
         Page<Problem> hotList(@Param(value = "labelid") String labelId, Pageable pageable);
         @Query(value = "SELECT * FROM `tb_problem` as bl,tb_pl as pl where bl.id=pl.problemid and pl.labelid=:labelid and reply=0 ORDER BY bl.createtime desc",nativeQuery = true)
         Page<Problem> waitList(@Param(value = "labelid") String labelId, Pageable pageable);
+
 }

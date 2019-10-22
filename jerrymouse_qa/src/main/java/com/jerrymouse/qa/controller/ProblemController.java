@@ -28,6 +28,33 @@ public class ProblemController {
     public Result<PageResult<Problem>> waitList(@PathVariable(value = "label") String label,@PathVariable(value = "page")Integer page,@PathVariable(value = "size")Integer size){
         return problemService.findWaitList(label, page, size);
     }
+    @PostMapping
+    public Result add(Problem problem){
+         problemService.add(problem);
+          return Result.createBySuccessMessage("问题新增成功");
+    }
+    @GetMapping
+    public Result findAll(){
+        return Result.createBySuccess(problemService.findAll());
+    }
+    @GetMapping(value = "/{id}")
+    public Result findById(@PathVariable(value = "id") String id){
+        return Result.createBySuccess(problemService.findById(id));
+    }
+    @PutMapping(value = "/{id}")
+    public Result update(Problem problem,@PathVariable(value = "id") String id){
+        problemService.update(problem,id);
+        return Result.createBySuccessMessage("修改问题信息成功");
+    }
+    @DeleteMapping(value = "/{id}")
+    public Result delete(@PathVariable (value = "id")String id){
+        problemService.delete(id);
+        return Result.createBySuccessMessage("问题删除成功");
+    }
+    @GetMapping(value = "/search/{page}/{size}")
+    public Result search(Problem problem,@PathVariable(value = "page")Integer page,@PathVariable (value = "size")Integer size){
+        return problemService.search(problem,page,size);
+    }
 
 
 }

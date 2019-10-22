@@ -2,30 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78d1c877-810a-40a7-ace7-440d0ffddf2d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/jerrymouse_base/src/main/java/com/jerrymouse/base/controller/BaseCityController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jerrymouse_base/src/main/java/com/jerrymouse/base/dao/CityDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jerrymouse_base/src/main/java/com/jerrymouse/base/pojo/City.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jerrymouse_base/src/main/java/com/jerrymouse/base/service/CityService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jerrymouse_base/src/main/java/com/jerrymouse/base/service/impl/CityServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jerrymouse_common/src/main/java/entity/BaseConst.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jerrymouse_gathering/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jerrymouse_gathering/src/main/java/com/jerrymouse/gathering/GatheringApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jerrymouse_gathering/src/main/java/com/jerrymouse/gathering/controller/GatheringController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jerrymouse_gathering/src/main/java/com/jerrymouse/gathering/dao/GatheringDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jerrymouse_gathering/src/main/java/com/jerrymouse/gathering/pojo/Gathering.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jerrymouse_gathering/src/main/java/com/jerrymouse/gathering/service/GatheringService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jerrymouse_gathering/src/main/java/com/jerrymouse/gathering/service/impl/GatheringServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jerrymouse_gathering/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jerrymouse_article/src/main/java/com/jerrymouse/article/controller/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/jerrymouse_article/src/main/java/com/jerrymouse/article/controller/ArticleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jerrymouse_base/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jerrymouse_base/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jerrymouse_base/src/main/java/com/jerrymouse/base/controller/BaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/jerrymouse_base/src/main/java/com/jerrymouse/base/controller/BaseController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jerrymouse_base/src/main/java/com/jerrymouse/base/dao/LabelDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/jerrymouse_base/src/main/java/com/jerrymouse/base/dao/LabelDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jerrymouse_base/src/main/java/com/jerrymouse/base/service/LabelService.java" beforeDir="false" afterPath="$PROJECT_DIR$/jerrymouse_base/src/main/java/com/jerrymouse/base/service/LabelService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jerrymouse_base/src/main/java/com/jerrymouse/base/service/impl/CityServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/jerrymouse_base/src/main/java/com/jerrymouse/base/service/impl/CityServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jerrymouse_base/src/main/java/com/jerrymouse/base/service/impl/LabelServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/jerrymouse_base/src/main/java/com/jerrymouse/base/service/impl/LabelServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jerrymouse_qa/src/main/java/com/jerrymouse/qa/controller/ProblemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/jerrymouse_qa/src/main/java/com/jerrymouse/qa/controller/ProblemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jerrymouse_qa/src/main/java/com/jerrymouse/qa/dao/ProblemDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/jerrymouse_qa/src/main/java/com/jerrymouse/qa/dao/ProblemDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jerrymouse_qa/src/main/java/com/jerrymouse/qa/service/ProblemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/jerrymouse_qa/src/main/java/com/jerrymouse/qa/service/ProblemService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jerrymouse_qa/src/main/java/com/jerrymouse/qa/service/impl/ProblemServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/jerrymouse_qa/src/main/java/com/jerrymouse/qa/service/impl/ProblemServiceImpl.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -49,22 +32,46 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jerrymouse_base/src/main/java/com/jerrymouse/base/controller/BaseCityController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="42" column="121" selection-start-line="42" selection-start-column="121" selection-end-line="42" selection-end-column="121" />
+            <state relative-caret-position="426">
+              <caret line="43" column="48" lean-forward="true" selection-start-line="43" selection-start-column="48" selection-end-line="43" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#600#601#0" expanded="true" />
-                <element signature="e#668#669#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jerrymouse_base/src/main/java/com/jerrymouse/base/service/CityService.java">
+        <entry file="file://$PROJECT_DIR$/jerrymouse_qa/src/main/java/com/jerrymouse/qa/controller/ProblemController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+            <state relative-caret-position="435">
+              <caret line="57" selection-start-line="57" selection-end-line="57" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1608#1609#0" expanded="true" />
+                <element signature="e#1634#1635#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jerrymouse_base/src/main/java/com/jerrymouse/base/service/impl/CityServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="58" column="13" lean-forward="true" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jerrymouse_qa/src/main/java/com/jerrymouse/qa/service/ProblemService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="483">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -73,17 +80,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jerrymouse_base/src/main/java/com/jerrymouse/base/service/impl/CityServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/jerrymouse_qa/src/main/java/com/jerrymouse/qa/service/impl/ProblemServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="60" column="56" lean-forward="true" selection-start-line="60" selection-start-column="56" selection-end-line="60" selection-end-column="56" />
+            <state relative-caret-position="458">
+              <caret line="96" column="3" selection-start-line="96" selection-start-column="3" selection-end-line="96" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#968#969#0" expanded="true" />
-                <element signature="e#1004#1005#0" expanded="true" />
-                <element signature="e#1059#1060#0" expanded="true" />
-                <element signature="e#1108#1109#0" expanded="true" />
+                <element signature="e#2125#2126#0" expanded="true" />
+                <element signature="e#2167#2168#0" expanded="true" />
+                <element signature="e#2223#2224#0" expanded="true" />
+                <element signature="e#2250#2251#0" expanded="true" />
+                <element signature="e#2460#2461#0" expanded="true" />
+                <element signature="e#2499#2500#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jerrymouse_qa/src/main/java/com/jerrymouse/qa/dao/ProblemDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -91,60 +109,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jerrymouse_base/src/main/java/com/jerrymouse/base/service/impl/LabelServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="647">
-              <caret line="76" column="17" lean-forward="true" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="17" />
+            <state relative-caret-position="-25">
+              <caret line="57" column="19" selection-start-line="57" selection-start-column="19" selection-end-line="57" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1140#1141#0" expanded="true" />
-                <element signature="e#1215#1216#0" expanded="true" />
-                <element signature="e#3257#3258#0" expanded="true" />
-                <element signature="e#3315#3316#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jerrymouse_base/src/main/java/com/jerrymouse/base/pojo/Label.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jerrymouse_base/src/main/java/com/jerrymouse/base/controller/BaseController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jerrymouse_base/src/main/java/com/jerrymouse/base/pojo/City.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jerrymouse_base/src/main/java/com/jerrymouse/base/BaseApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jerrymouse_base/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -162,6 +131,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>update</find>
+      <find>city.getName()</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -184,10 +154,6 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/jerrymouse_qa/src/main/java/com/jerrymouse/qa/QaApplication.java" />
         <option value="$PROJECT_DIR$/jerrymouse_qa/src/main/java/com/jerrymouse/qa/service/ProblemServiceImpl.java" />
-        <option value="$PROJECT_DIR$/jerrymouse_qa/src/main/java/com/jerrymouse/qa/controller/ProblemController.java" />
-        <option value="$PROJECT_DIR$/jerrymouse_qa/src/main/java/com/jerrymouse/qa/dao/ProblemDao.java" />
-        <option value="$PROJECT_DIR$/jerrymouse_qa/src/main/java/com/jerrymouse/qa/service/ProblemService.java" />
-        <option value="$PROJECT_DIR$/jerrymouse_qa/src/main/java/com/jerrymouse/qa/service/impl/ProblemServiceImpl.java" />
         <option value="$PROJECT_DIR$/jerrymouse_article/src/main/resources/generatorConfig.xml" />
         <option value="$PROJECT_DIR$/jerrymouse_article/src/main/java/ArticleApplication.java" />
         <option value="$PROJECT_DIR$/jerrymouse_article/src/main/java/com/jerrymouse/article/ArticleApplication.java" />
@@ -217,10 +183,14 @@
         <option value="$PROJECT_DIR$/jerrymouse_gathering/src/main/java/com/jerrymouse/gathering/dao/GatheringDao.java" />
         <option value="$PROJECT_DIR$/jerrymouse_base/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/jerrymouse_base/src/main/java/com/jerrymouse/base/pojo/City.java" />
-        <option value="$PROJECT_DIR$/jerrymouse_base/src/main/java/com/jerrymouse/base/service/impl/LabelServiceImpl.java" />
-        <option value="$PROJECT_DIR$/jerrymouse_base/src/main/java/com/jerrymouse/base/service/impl/CityServiceImpl.java" />
         <option value="$PROJECT_DIR$/jerrymouse_base/src/main/java/com/jerrymouse/base/service/CityService.java" />
         <option value="$PROJECT_DIR$/jerrymouse_base/src/main/java/com/jerrymouse/base/controller/BaseCityController.java" />
+        <option value="$PROJECT_DIR$/jerrymouse_base/src/main/java/com/jerrymouse/base/service/impl/CityServiceImpl.java" />
+        <option value="$PROJECT_DIR$/jerrymouse_base/src/main/java/com/jerrymouse/base/service/impl/LabelServiceImpl.java" />
+        <option value="$PROJECT_DIR$/jerrymouse_qa/src/main/java/com/jerrymouse/qa/dao/ProblemDao.java" />
+        <option value="$PROJECT_DIR$/jerrymouse_qa/src/main/java/com/jerrymouse/qa/controller/ProblemController.java" />
+        <option value="$PROJECT_DIR$/jerrymouse_qa/src/main/java/com/jerrymouse/qa/service/ProblemService.java" />
+        <option value="$PROJECT_DIR$/jerrymouse_qa/src/main/java/com/jerrymouse/qa/service/impl/ProblemServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -326,36 +296,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jerrymouse_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jerrymouse_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="jerrymouse_base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jerrymouse_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jerrymouse_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="jerrymouse_base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jerrymouse_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jerrymouse_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="jerrymouse_base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -372,55 +312,76 @@
             <path>
               <item name="jerrymouse_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="jerrymouse_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="jerrymouse_base" type="462c0819:PsiDirectoryNode" />
+              <item name="jerrymouse_qa" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jerrymouse_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jerrymouse_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="jerrymouse_qa" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jerrymouse_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jerrymouse_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="jerrymouse_qa" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jerrymouse_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jerrymouse_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="jerrymouse_qa" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jerrymouse_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jerrymouse_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="jerrymouse_qa" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="qa" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jerrymouse_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jerrymouse_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="jerrymouse_qa" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="qa" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jerrymouse_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jerrymouse_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="jerrymouse_qa" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="qa" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jerrymouse_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jerrymouse_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="jerrymouse_qa" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="qa" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jerrymouse_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jerrymouse_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="jerrymouse_qa" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jerrymouse_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jerrymouse_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="jerrymouse_qa" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jerrymouse_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jerrymouse_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="jerrymouse_qa" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jerrymouse_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jerrymouse_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="jerrymouse_qa" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jerrymouse_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jerrymouse_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="jerrymouse_qa" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jerrymouse_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jerrymouse_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="jerrymouse_qa" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="qa" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jerrymouse_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jerrymouse_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="jerrymouse_qa" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="qa" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -472,7 +433,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.BaseApplication">
+  <component name="RunManager" selected="Spring Boot.QaApplication">
     <configuration name="ProblemServiceImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.jerrymouse.qa.service.impl.ProblemServiceImpl" />
       <module name="jerrymouse_qa" />
@@ -617,10 +578,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.QaApplication" />
         <item itemvalue="Spring Boot.BaseApplication" />
         <item itemvalue="Spring Boot.RecruitApplication" />
         <item itemvalue="Spring Boot.ArticleApplication" />
-        <item itemvalue="Spring Boot.QaApplication" />
         <item itemvalue="Application.ProblemServiceImpl" />
       </list>
     </recent_temporary>
@@ -644,7 +605,7 @@
       <workItem from="1571296054231" duration="3110000" />
       <workItem from="1571358733493" duration="18633000" />
       <workItem from="1571618076778" duration="11630000" />
-      <workItem from="1571704415019" duration="6197000" />
+      <workItem from="1571704415019" duration="10460000" />
     </task>
     <task id="LOCAL-00001" summary="首次提交,父工程和两个子模块common和base">
       <created>1569313396682</created>
@@ -702,7 +663,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571623408696</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="七次提交，基础城市微服务补充，活动微服务新建(待完成)">
+      <created>1571710753698</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1571710753698</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -711,13 +679,22 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92494000" />
+    <option name="totallyTimeSpent" value="96757000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49882352" visible="true" weight="0.2774799" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49882352" visible="true" weight="0.2774799" />
       <window_info id="Structure" order="1" sideWeight="0.5011765" side_tool="true" weight="0.25670242" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -850,7 +827,8 @@
     <MESSAGE value="四次提交,招聘微服务完成" />
     <MESSAGE value="五次提交,问答微服务完成" />
     <MESSAGE value="六次提交,文章微服务完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="六次提交,文章微服务完成" />
+    <MESSAGE value="七次提交，基础城市微服务补充，活动微服务新建(待完成)" />
+    <option name="LAST_COMMIT_MESSAGE" value="七次提交，基础城市微服务补充，活动微服务新建(待完成)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -863,7 +841,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/jerrymouse_qa/src/main/java/com/jerrymouse/qa/service/impl/ProblemServiceImpl.java</url>
-          <line>25</line>
+          <line>32</line>
           <properties />
           <option name="timeStamp" value="13" />
         </line-breakpoint>
@@ -883,27 +861,10 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/jerrymouse_qa/src/main/java/com/jerrymouse/qa/service/impl/ProblemServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="634">
           <caret line="33" column="55" selection-start-line="33" selection-start-column="55" selection-end-line="33" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jerrymouse_qa/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -939,30 +900,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jerrymouse_qa/src/main/java/com/jerrymouse/qa/service/ProblemService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../Webtools/mavelocalwarehouse/org/springframework/spring-web/5.0.5.RELEASE/spring-web-5.0.5.RELEASE.jar!/org/springframework/web/bind/annotation/RestControllerAdvice.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
           <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jerrymouse_qa/src/main/java/com/jerrymouse/qa/controller/ProblemController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -988,16 +929,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
           <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jerrymouse_qa/src/main/java/com/jerrymouse/qa/QaApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1204,16 +1135,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jerrymouse_qa/src/main/java/com/jerrymouse/qa/dao/ProblemDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jerrymouse_gathering/src/main/java/com/jerrymouse/gathering/dao/GatheringDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
@@ -1255,13 +1176,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jerrymouse_base/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jerrymouse_base/src/main/java/com/jerrymouse/base/pojo/Label.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -1286,42 +1200,101 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jerrymouse_base/src/main/java/com/jerrymouse/base/controller/BaseCityController.java">
+    <entry file="file://$PROJECT_DIR$/jerrymouse_base/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="42" column="121" selection-start-line="42" selection-start-column="121" selection-end-line="42" selection-end-column="121" />
+        <state relative-caret-position="23">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jerrymouse_qa/src/main/java/com/jerrymouse/qa/QaApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#600#601#0" expanded="true" />
-            <element signature="e#668#669#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jerrymouse_qa/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jerrymouse_base/src/main/java/com/jerrymouse/base/service/impl/LabelServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="647">
-          <caret line="76" column="17" lean-forward="true" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="17" />
+        <state relative-caret-position="-25">
+          <caret line="57" column="19" selection-start-line="57" selection-start-column="19" selection-end-line="57" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1140#1141#0" expanded="true" />
-            <element signature="e#1215#1216#0" expanded="true" />
-            <element signature="e#3257#3258#0" expanded="true" />
-            <element signature="e#3315#3316#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jerrymouse_qa/src/main/java/com/jerrymouse/qa/dao/ProblemDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jerrymouse_base/src/main/java/com/jerrymouse/base/controller/BaseCityController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="43" column="48" lean-forward="true" selection-start-line="43" selection-start-column="48" selection-end-line="43" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jerrymouse_qa/src/main/java/com/jerrymouse/qa/controller/ProblemController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1608#1609#0" expanded="true" />
+            <element signature="e#1634#1635#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jerrymouse_base/src/main/java/com/jerrymouse/base/service/impl/CityServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="60" column="56" lean-forward="true" selection-start-line="60" selection-start-column="56" selection-end-line="60" selection-end-column="56" />
+        <state relative-caret-position="242">
+          <caret line="58" column="13" lean-forward="true" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#968#969#0" expanded="true" />
-            <element signature="e#1004#1005#0" expanded="true" />
-            <element signature="e#1059#1060#0" expanded="true" />
-            <element signature="e#1108#1109#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jerrymouse_qa/src/main/java/com/jerrymouse/qa/service/ProblemService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jerrymouse_qa/src/main/java/com/jerrymouse/qa/service/impl/ProblemServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="96" column="3" selection-start-line="96" selection-start-column="3" selection-end-line="96" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2125#2126#0" expanded="true" />
+            <element signature="e#2167#2168#0" expanded="true" />
+            <element signature="e#2223#2224#0" expanded="true" />
+            <element signature="e#2250#2251#0" expanded="true" />
+            <element signature="e#2460#2461#0" expanded="true" />
+            <element signature="e#2499#2500#0" expanded="true" />
           </folding>
         </state>
       </provider>

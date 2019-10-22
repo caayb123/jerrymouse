@@ -11,6 +11,7 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.jpa.domain.Specification;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 import util.IdWorker;
 
 import javax.persistence.criteria.CriteriaBuilder;
@@ -38,6 +39,7 @@ public class LabelServiceImpl implements LabelService {
      }
 
      @Override
+     @Transactional
      public Result update(String id,Label label) {
           label.setId(id);
           labelDao.save(label);
@@ -45,6 +47,7 @@ public class LabelServiceImpl implements LabelService {
      }
 
      @Override
+     @Transactional
      public Result add(Label label) {
             label.setId(idWorker.nextId()+"");
             labelDao.save(label);
@@ -52,6 +55,7 @@ public class LabelServiceImpl implements LabelService {
      }
 
      @Override
+     @Transactional
      public Result deleteById(String id) {
            labelDao.deleteById(id);
            return Result.createBySuccessMessage("删除成功");

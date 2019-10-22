@@ -39,12 +39,14 @@ public class CityServiceImpl implements CityService {
     }
 
     @Override
+    @Transactional
     public void update(City city,String id) {
         city.setId(id);
         cityDao.save(city);
     }
 
     @Override
+    @Transactional
     public void delete(String id) {
         cityDao.deleteById(id);
     }

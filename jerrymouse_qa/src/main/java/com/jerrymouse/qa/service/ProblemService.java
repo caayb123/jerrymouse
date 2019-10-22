@@ -13,5 +13,11 @@ public interface ProblemService {
     Result<PageResult<Problem>> findNewList(String labelId, Integer page, Integer size);
     Result<PageResult<Problem>> findHotList(String labelId, Integer page, Integer size);
     Result<PageResult<Problem>> findWaitList(String labelId, Integer page, Integer size);
+    void add(Problem problem);
+    List<Problem> findAll();
+    Problem findById(String id);
+    void update(Problem problem,String id);
+    void delete(String id);
+    Result<PageResult<Problem>> search(Problem problem,Integer page,Integer size);
 
 }
