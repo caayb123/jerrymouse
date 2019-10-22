@@ -6,11 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="jerrymouse_common" />
-        <module name="jerrymouse_qa" />
-        <module name="jerrymouse_recruit" />
-        <module name="jerrymouse_article" />
         <module name="jerrymouse_base" />
+        <module name="jerrymouse_gathering" />
+        <module name="jerrymouse_article" />
+        <module name="jerrymouse_common" />
+        <module name="jerrymouse_recruit" />
+        <module name="jerrymouse_qa" />
       </profile>
     </annotationProcessing>
   </component>
@@ -19,6 +20,7 @@
       <module name="jerrymouse_article" options="-parameters" />
       <module name="jerrymouse_base" options="-parameters" />
       <module name="jerrymouse_common" options="-parameters" />
+      <module name="jerrymouse_gathering" options="-parameters" />
       <module name="jerrymouse_qa" options="-parameters" />
       <module name="jerrymouse_recruit" options="-parameters" />
     </option>

@@ -37,4 +37,5 @@ public class ArticleController {
     public Result findById(@PathVariable(value = "id") String id){
         return Result.createBySuccess(articleService.findArticleById(id));
     }
+
 }

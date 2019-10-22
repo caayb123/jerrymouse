@@ -2,6 +2,7 @@ package com.jerrymouse.base.controller;
 
 import com.jerrymouse.base.pojo.Label;
 import com.jerrymouse.base.service.LabelService;
+import entity.BaseConst;
 import entity.Result;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -39,6 +40,11 @@ public class BaseController {
     @PostMapping(value = "/search/{page}/{size}")
     public Result findSearch(Label label,@PathVariable(value = "page") Integer page,@PathVariable(value = "size") Integer size){
          return labelService.findSearch(label,page,size);
+    }
+    @GetMapping(value = "/toplist")
+    public Result topList(){
+       return Result.createBySuccess(labelService.topList(BaseConst.IS_RECOMMEND));
+
     }
 
 

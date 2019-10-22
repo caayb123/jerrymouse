@@ -18,4 +18,6 @@ public interface LabelService {
     Result deleteById(String id);
 
     Result<PageResult<Label>> findSearch(Label label, Integer page, Integer size);
+
+    List<Label> topList(String recommend);
 }

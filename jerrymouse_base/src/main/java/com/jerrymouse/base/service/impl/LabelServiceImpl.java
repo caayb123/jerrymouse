@@ -60,11 +60,11 @@ public class LabelServiceImpl implements LabelService {
     @Override
     public Result<PageResult<Label>> findSearch(Label label, Integer page, Integer size) {
          if (page==null){
-             page=1;
-         }
-         if (size==null){
-             page=2;
-         }
+            page=1;
+        }
+        if (size==null){
+            page=2;
+        }
         Page<Label> labelPage = labelDao.findAll(new Specification<Label>() {
             @Override
             public Predicate toPredicate(Root<Label> root, CriteriaQuery<?> criteriaQuery, CriteriaBuilder criteriaBuilder) {
@@ -82,6 +82,11 @@ public class LabelServiceImpl implements LabelService {
             }
         }, PageRequest.of(page - 1, size));
         return Result.createBySuccess(new PageResult<Label>(labelPage.getTotalElements(),labelPage.getContent()));
+    }
+
+    @Override
+    public List<Label> topList(String recommend) {
+        return labelDao.findByRecommend(recommend);
     }
 
 
